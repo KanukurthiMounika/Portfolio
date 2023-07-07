@@ -1,0 +1,46 @@
+body {
+    margin:0;
+    padding:0;
+    font-family:montserrat;
+    background:linear-gradient(120deg,#fc0377, #785d4d);
+    height:100vh;
+    overflow:hidden;
+
+}
+.center {
+    position: relative;;
+    top: 50%;
+    left: 50%;
+    transform :translate(-50%,-50%);
+    width:600px;
+    border-radius:20px;
+    color:white;
+}
+ h1 {
+    text-align:center;
+    color:white;
+    font-family:"Roberto";
+    font-weight:"bold";
+    margin-bottom:10px;
+    padding:5px;
+
+}
+ p{
+    font-family:"Roberto";
+    color:white;
+    font-size:28px;
+
+}
+button {
+    background:white;
+  color:#000;
+  padding:12px 30px;
+  border-radius:4px;
+  outline:none;
+  text-transform:uppercase;
+  font-size:13px;
+  font-weight:500;
+  text-decoration:none;
+  letter-spacing:1px;
+  text-align:center;
+}
